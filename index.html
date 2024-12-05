@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Vegitable Shop</title>
+</head>
+<body class="bg-light">
+    <h1 class="text-center mt-4 text-danger text-uppercase">Welcome to Vegitable Shop</h1>
+
+    <div class="container mt-4">
+        <!-- নতুন প্রোডাক্ট যোগ করার ফর্ম -->
+        <form action="/addProduct" method="post" id="addForm">
+            <input type="text" name="name" placeholder="Enter vegetable name" class="form-control mt-3" required>
+            <input type="text" name="price" placeholder="Enter vegetable price" class="form-control mt-3" required>
+            <input type="text" name="quantity" placeholder="Enter vegetable quantity" class="form-control mt-3" required>
+            <button type="submit" class="btn btn-outline-success mt-3">Add Product</button>
+        </form>
+    </div>
+</body>
+</html>
